@@ -1,0 +1,146 @@
+[
+  {
+    "id": "KB-001",
+    "title": "Platform Overview",
+    "tags": ["overview"],
+    "audience": "customer",
+    "last_updated": "2025-10-15",
+    "content": "This platform provides AI-powered automation solutions for business workflows. The system can handle customer interactions, data processing, and task automation. Common use cases include customer support, lead qualification, appointment scheduling, and automated follow-ups."
+  },
+  {
+    "id": "KB-002",
+    "title": "Supported languages",
+    "tags": ["product", "languages"],
+    "audience": "customer",
+    "last_updated": "2025-11-01",
+    "content": "The platform supports multiple languages including English and Spanish by default. Additional languages such as Portuguese, French, and German can be enabled based on requirements and provider availability. Custom language support may require additional configuration."
+  },
+  {
+    "id": "KB-003",
+    "title": "Integrations overview",
+    "tags": ["integrations", "product"],
+    "audience": "customer",
+    "last_updated": "2025-11-20",
+    "content": "The platform integrates with popular business tools including CRM systems (HubSpot, Salesforce), calendar applications (Google Calendar, Outlook), and communication channels (email, SMS, messaging platforms). Custom integrations can be built via REST APIs."
+  },
+  {
+    "id": "KB-004",
+    "title": "CRM integration and data sync",
+    "tags": ["integrations", "crm"],
+    "audience": "customer",
+    "last_updated": "2025-09-30",
+    "content": "CRM integration allows the platform to create, update, and sync records (contacts, leads, deals) automatically. Setup requires API credentials, field mapping configuration, and data model approval. Typical implementation takes 2-5 business days depending on complexity."
+  },
+  {
+    "id": "KB-005",
+    "title": "Calendar integration and scheduling",
+    "tags": ["calendar", "product"],
+    "audience": "customer",
+    "last_updated": "2025-10-02",
+    "content": "Calendar integration enables automatic appointment scheduling. The system checks availability based on configured rules (business hours, time buffers, meeting duration) and books the first available slot matching the user's preferences."
+  },
+  {
+    "id": "KB-006",
+    "title": "Pricing model (high level)",
+    "tags": ["pricing"],
+    "audience": "customer",
+    "last_updated": "2025-11-10",
+    "content": "Pricing is based on a subscription model with tiered plans. Base plans include core features, while advanced features (analytics, custom workflows, priority support) are available in higher tiers. Enterprise plans offer custom pricing based on usage volume and specific requirements."
+  },
+  {
+    "id": "KB-007",
+    "title": "What is included in onboarding",
+    "tags": ["onboarding", "delivery"],
+    "audience": "customer",
+    "last_updated": "2025-10-25",
+    "content": "Standard onboarding includes: account setup, workflow configuration, integration setup (if applicable), testing and validation, and go-live support. Typical onboarding duration is 1-3 weeks depending on the complexity of integrations and customizations required."
+  },
+  {
+    "id": "KB-008",
+    "title": "SLA and uptime (standard)",
+    "tags": ["sla", "reliability"],
+    "audience": "customer",
+    "last_updated": "2025-08-18",
+    "content": "Standard service level agreement targets 99.5% monthly uptime for core platform services. Incident notifications are provided during business hours with defined escalation procedures for critical issues. Enhanced SLAs with higher uptime guarantees are available for enterprise customers."
+  },
+  {
+    "id": "KB-009",
+    "title": "Performance and latency expectations",
+    "tags": ["reliability", "performance"],
+    "audience": "customer",
+    "last_updated": "2025-11-05",
+    "content": "System performance depends on various factors including network conditions, data volume, and selected service tier. The platform is optimized for low latency and responsive interactions. Performance can be tuned based on specific requirements and use cases."
+  },
+  {
+    "id": "KB-010",
+    "title": "Data retention policy (default)",
+    "tags": ["security", "compliance"],
+    "audience": "customer",
+    "last_updated": "2025-10-05",
+    "content": "By default, system logs and transaction data are retained for 90 days. Retention periods can be customized based on business requirements and compliance needs. Data can be exported or permanently deleted upon request, subject to applicable retention policies."
+  },
+  {
+    "id": "KB-011",
+    "title": "Data privacy and PII handling",
+    "tags": ["security", "compliance"],
+    "audience": "customer",
+    "last_updated": "2025-10-05",
+    "content": "The platform follows industry best practices for data privacy and protection. Personal identifiable information (PII) is handled according to applicable regulations. Data minimization principles are applied, and customers can configure data retention and redaction rules to meet their compliance requirements."
+  },
+  {
+    "id": "KB-012",
+    "title": "Outbound communication prerequisites",
+    "tags": ["telephony", "outbound"],
+    "audience": "customer",
+    "last_updated": "2025-09-12",
+    "content": "Outbound communication features require: approved contact lists, configured communication windows, opt-out management, and compliance with applicable regulations. Customers are responsible for ensuring proper consent and legal basis for communications in their jurisdiction."
+  },
+  {
+    "id": "KB-013",
+    "title": "Opt-out and unsubscribe handling",
+    "tags": ["compliance", "outbound"],
+    "audience": "internal",
+    "last_updated": "2025-09-12",
+    "content": "When a user requests to opt-out or unsubscribe, the system must immediately process the request, confirm the opt-out, and mark the record accordingly. All downstream systems and processes must respect opt-out flags to prevent further communications."
+  },
+  {
+    "id": "KB-014",
+    "title": "Troubleshooting: communication quality issues",
+    "tags": ["troubleshooting", "telephony"],
+    "audience": "internal",
+    "last_updated": "2025-11-22",
+    "content": "For quality issues, first check: service provider status, network conditions, regional connectivity, and system health metrics. Collect relevant information including: session ID, timestamp, region, provider details, and user-reported symptoms. Escalate if issues persist across multiple regions or affect multiple users."
+  },
+  {
+    "id": "KB-015",
+    "title": "Troubleshooting: integration failures",
+    "tags": ["troubleshooting", "integrations", "crm"],
+    "audience": "internal",
+    "last_updated": "2025-11-22",
+    "content": "Common causes of integration failures include: expired authentication tokens, configuration changes, permission modifications, and rate limiting. Troubleshooting steps: verify credentials, check API logs, review recent configuration changes, and test with sample data. Create a high-priority ticket if the issue blocks critical operations."
+  },
+  {
+    "id": "KB-016",
+    "title": "Escalation policy",
+    "tags": ["operations", "sla"],
+    "audience": "internal",
+    "last_updated": "2025-10-30",
+    "content": "Immediate escalation is required for: widespread service outages, data integrity issues, security incidents, or failures affecting multiple customers. High-priority tickets should be created for any production-impacting issues. Follow defined escalation procedures based on severity and impact."
+  },
+  {
+    "id": "KB-017",
+    "title": "How to request a custom SLA",
+    "tags": ["sla", "sales"],
+    "audience": "customer",
+    "last_updated": "2025-08-18",
+    "content": "Custom service level agreements are available for enterprise customers. Requirements typically include: dedicated monitoring, defined response times, severity classification, and escalation procedures. A consultation call is required to discuss specific needs and create a tailored SLA."
+  },
+  {
+    "id": "KB-018",
+    "title": "Supported CRM systems",
+    "tags": ["integrations", "crm"],
+    "audience": "customer",
+    "last_updated": "2025-11-20",
+    "content": "The platform supports integration with popular CRM systems including HubSpot, Salesforce, and Microsoft Dynamics. Custom CRM integrations can be developed via REST APIs or middleware solutions, depending on the system's authentication methods and data structure."
+  }
+]
