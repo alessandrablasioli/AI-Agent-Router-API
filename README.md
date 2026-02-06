@@ -1,6 +1,6 @@
 # AI Agent Router API
 
-A production-ready HTTP API that uses OpenAI's function calling API to route user requests to appropriate server-side tools (knowledge base search, ticket creation, follow-up scheduling) and return clean final answers with execution traces.
+HTTP API that uses OpenAI's function calling API to route user requests to appropriate server-side tools (knowledge base search, ticket creation, follow-up scheduling) and return clean final answers with execution traces.
 
 This project demonstrates:
 - **OpenAI Function Calling**: Intelligent tool orchestration using OpenAI's tool/function calling API
