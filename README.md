@@ -187,8 +187,7 @@ This allows you to ask questions interactively and see responses with tool calls
   - **SQLite**: Database storage with ACID guarantees (set `STORAGE_TYPE=sqlite`)
 
 ## Security Note
-
-**IMPORTANT**: Your API key is private and should never be committed to Git. The `.env` file is already in `.gitignore` to protect your credentials.
+Your API key is private and should never be committed to Git. The `.env` file is already in `.gitignore` to protect your credentials.
 
 ## License
 
